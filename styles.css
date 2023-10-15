@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header */
+.logo{
+    width: 75px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.navbar>ul{
+    display: flex;
+    list-style-type: none;
+}
+.navbar>ul >li{
+    padding: 20px 10px;
+}
+
+
+/* Body */
+/* Card */
+.restaurant-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.card{
+    width: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+.card >img{
+width: 100%;
+}
